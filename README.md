@@ -1,6 +1,3 @@
-Claro! Abaixo está um exemplo de um arquivo `README.md` para um projeto chamado "todo-list" que utiliza JavaScript, CSS e FirebaseJS:
-
-```markdown
 # Todo List App
 
 Este é um projeto de uma aplicação de lista de afazeres (todo-list) que utiliza JavaScript, CSS e FirebaseJS.
@@ -39,10 +36,10 @@ cd todo-list
 npm install
 ```
 
-4. Configure as credenciais do Firebase. Você pode encontrar as informações de configuração no [Console do Firebase](https://console.firebase.google.com/). Substitua as informações no arquivo `firebase-config.js`.
+4. Configure as credenciais do Firebase. Você pode encontrar as informações de configuração no [Console do Firebase](https://console.firebase.google.com/). Substitua as informações no arquivo `firebase.js`.
 
 ```javascript
-// firebase-config.js
+// firebase.js
 
 const firebaseConfig = {
   apiKey: "SUA_API_KEY",
@@ -82,5 +79,3 @@ Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` pa
 
 Feito com ❤️ por [Daniel Henrique](https://github.com/danihre)
 ```
-
-Certifique-se de substituir as informações específicas do seu projeto, como o link do repositório, suas credenciais do Firebase e seu nome. Este é apenas um exemplo de README.md e pode ser personalizado de acordo com as necessidades do seu projeto.
